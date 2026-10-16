@@ -18,7 +18,6 @@
 
 ### Base URL & Prefix
 - **Server (Production / UAT):** `https://api831.yru.ac.th/act/api`
-- **Local Dev:** `http://127.0.0.1:8000/api`
 
 ### กลไก `paginate=false` (Streamed JSON Chunking)
 เมื่อส่ง `paginate=false` ใน API รายการส่วนใหญ่ของระบบ:
