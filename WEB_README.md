@@ -23,7 +23,7 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 แก้ไข `API_MANUAL.md` แล้วรีเฟรชหน้าเว็บ เนื้อหาและสารบัญจะอัปเดตตามไฟล์ รองรับตาราง ลิงก์ anchor และ code blocks พร้อมปุ่มคัดลอก ค้นหาโดยกรองหมวดที่มีข้อความตรงกัน กด `/` เพื่อค้นหา และ `Escape` เพื่อล้างคำค้น
 
-นำไฟล์ `index.html`, `styles.css`, `app.js`, `manual-data.js`, `API_MANUAL.md` และโฟลเดอร์ `vendor/`, `assets/` ไปวางบน static web server ได้ โดยต้องอยู่ภายใต้ path เดียวกัน
+นำไฟล์ `index.html`, `styles.css`, `app.js`, `manual-data.js`, `API_MANUAL.md` และโฟลเดอร์ `vendor/` ไปวางบน static web server ได้ โดยต้องอยู่ภายใต้ path เดียวกัน
 
 ## Libraries
 
@@ -36,4 +36,4 @@ Markdown ถูกแปลงเป็น HTML ด้วย Marked และผ
 
 ## ฟอนต์
 
-ใช้ MN Burger จาก `assets/fonts/mn-burger/` พร้อมน้ำหนัก Light, Regular, Bold และ Italic ส่วนตัวอย่างโค้ดใช้ monospace เพื่อให้อ่านโค้ดได้สะดวก
+ใช้ Google Sans ทั้งหน้า รวมถึงตัวอย่างโค้ด ผ่าน Google Fonts `@import` ใน `styles.css` ต้องเชื่อมต่ออินเทอร์เน็ตเพื่อโหลดฟอนต์ หากโหลดไม่ได้จะใช้ sans-serif ของเครื่อง
